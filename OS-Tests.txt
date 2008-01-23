@@ -1,0 +1,20 @@
+My tests with a relatively small input file (14 lines, 18 words):
+
+Solaris:
+	Solaris 8, Sparc (US III), gcc 3.3                      (13:40)
+	Solaris 8, Sparc (US III), gcc 3.4.2                    (17:17)
+	Solaris 8, Sparc (US III), Forte Developer 7 C 5.4      (05:46)
+	Solaris 9, Sparc (US IIIi), gcc 3.3.2                   (09:30)
+	Solaris 10, Sparc (US IIIi), gcc 3.3.2                  (08:45)
+	
+Linux:
+	Debian Etch, i386 (1GHz P3), gcc 4.0.4                  (0:00.003)
+	Debian Etch, i386 (1.8GHz Duron), gcc 3.3.6             (0:00.002)
+	Debian Etch, i386 (1.8GHz Duron), gcc 4.0.3             (0:00.003)
+	Fedora Core 4, i386 (667MHz P3), gcc 4.0.2              (0:00.006)
+	Voyage Linux 0.2 (Debian Sarge), i386
+		(266MHz NatSemi SC1100), built on other machine     (0:00.012)
+	Debian Etch, Sparc (US I), gcc 3.3.6                    ARGHHH![1]
+	Debian Etch, Sparc (US I), gcc 4.0.3                    ARGHHH![1]
+
+[1] Linux on Sparc seems to emulate Solaris' behaviour.

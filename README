@@ -1,0 +1,22 @@
+My offer for "The Underhanded C Contest" 2006[1]:
+===============================================================================
+
+This programs performs very badly on Solaris/Sparc while running fast on
+Linux/i386 (sadly it is somewhat hardware-dependent...).
+
+To compile, just run "make", which produces an executable file called
+"uhcc_sort". The default compiler is gcc on both platforms, feel free to
+use the commercial compiler (Forte Developer C) on Slowlaris.
+
+The testing (see OS-Tests.txt) was done with the following command line:
+
+$ time ./uhcc_sort < test.txt
+
+Other input files are usable, too - of course.
+
+Happy Bug-Hunting!
+
+MaD[2]
+
+[1] http://www.brainhz.com/underhanded/
+[2] http://automagically.de/index.shtml?contact
